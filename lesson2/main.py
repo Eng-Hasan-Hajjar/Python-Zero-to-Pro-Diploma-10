@@ -29,3 +29,19 @@ A = "Sally"
 print(a)
 
 
+myvar = "younes"
+my_var = "yasmin"
+_my_var = "zahrara"
+myVar = "kinda"
+MYVAR = "magd"
+myvar2 = "hasan"
+
+
+"""
+2myvar = "John"
+my-var = "John"
+my var = "John"
+
+"""
+
+
