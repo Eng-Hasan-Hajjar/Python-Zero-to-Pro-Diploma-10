@@ -43,5 +43,61 @@ my-var = "John"
 my var = "John"
 
 """
+#Camel Case
+myVariableName = "John"
+
+#Pascal Case
+MyVariableName = "John"
+
+#Snake Case
+my_variable_name = "John"
 
 
+
+
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+
+
+x = y = z = "Orange"
+print(x)
+print(y)
+print(z)
+
+
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
+
+x = "Python is awesome"
+print(x)
+
+
+x = "Python 46454"
+y = "is"
+z = "awesome"
+print(x, y, z)
+print(type(x),type(y),type(z))
+
+
+
+x = "Python "
+y = "is "
+z = "awesome"
+print(x + y + z)
+
+
+x = 5
+y = 10
+print(x + y)
+print(x , y)
+
+
+
+x = 5
+y = "John"
+print(x, y)
