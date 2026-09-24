@@ -57,3 +57,72 @@ print(pharmacy , pharmacy2,pharmacy3)
 text = "I love Java"
 
 print(text.replace("Java", "Python"))
+
+
+number = "25"
+
+print(number.zfill(5))
+
+##yasamin
+text = "السعر ١٢٥ ليرة"
+
+table = str.maketrans(
+    "٠١٢٣٤٥٦٧٨٩س",
+    "0123456789s"
+)
+
+result = text.translate(table)
+print(text)
+print(result)
+
+
+#magd
+text="pytHOn programming"
+print(text.capitalize())  # Python
+print(text.title())       # Python Programming
+print(text.swapcase())    # صغير ↔️ كبير
+
+#kinda
+students = {}
+
+students.setdefault("Ali", []).append("Python")
+students.setdefault("Ali", []).append("Java")
+students.setdefault("Omar", []).append("C++")
+students.setdefault("Ali", []).append("C++")
+students.setdefault("Eric", []).append("python")
+students.setdefault("Eric", []).append("math")
+print(students)
+
+
+
+
+filename = "photo.jpg"
+
+if filename.startswith("photo"):
+    print("هذه صورة")
+if filename.endswith("jpg"):
+    print("this nice ")    
+    
+#zahraa
+countries = "Syria-Italy-France-Spain"
+all_countries = countries.split("-")
+print(all_countries)
+first_split = countries.split("-", 1)
+print(first_split)
+
+
+#eric
+prices = [20, 100, 50, 200, 30]
+cheap = list(filter(lambda price: price < 100, prices))
+
+print(cheap)
+
+#zahra
+text = "hello world"
+
+position = text.rfind("o")
+position = text.find("o")
+
+print(position)
+
+
