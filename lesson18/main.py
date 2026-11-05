@@ -48,7 +48,10 @@ def clubs(names):
 clubs_list=["real madrid","catalonia","portugal"]
 clubs(clubs_list)        
 
+"""
 
+
+  
 def add(x,y):
     return x + y
 
@@ -109,4 +112,21 @@ choice=input("your choice:")
 number1=int(input("number1:"))
 number2=int(input("number2:"))
 main(choice,number1,number2)    
+
+"""
+def my_function(x, /):
+  print(x)
+my_function(3)
+
+def my_function(x):
+  print(x)
+my_function(x = 3)
+
+
+def my_function(x, /,y):
+  print(x)
+  print(y)
+my_function(6,y=2)## 
+
+
 
